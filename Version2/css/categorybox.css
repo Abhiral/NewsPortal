@@ -1,0 +1,178 @@
+
+.side-cat-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #535353;
+}
+
+
+
+.category-box {
+	clear: both;
+	float: left;
+	width: 240px;
+	background: #fff;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+.cat-box-title {
+	float: left;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font: 400 36px Antonio;
+	padding: 16px 0
+}
+
+.cat-box-title img{
+	width: 170px;	
+	margin-left: -30px;
+}
+
+.cat-box-title span{
+	float: right;
+	margin-right: 10px;
+}
+.cat-box-title span i {
+    color: #000;
+    font-size: 18px;
+}
+.cat-box-title span i:hover{
+	color: green;
+}
+
+
+ul.resp_catlist {
+	clear: both
+}
+
+.side-cat-list {
+	float: left;
+	width: 100%
+}
+
+.side-cat-list ul li:last-child {
+	margin-bottom: 20px
+}
+
+.side-cat-list ul li {
+	width: 98%;
+	float: left;
+	position: relative;
+	list-style: none;
+	background: #e1f3f7;
+	margin-top: 1px;
+	font: 400 14px Arial, Helvetica, sans-serif;
+	padding: 7px 1%;
+	border-bottom: 1px dotted #ccc
+}
+
+.side-cat-list ul li.biz {
+    background: #fff;
+    color: #000;
+}
+
+.side-cat-list ul li.biz a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.side-cat-list ul li.gov {
+	background: #FD9DAE;
+	color: #000
+}
+
+
+.side-cat-list ul li.biz:hover,
+.side-cat-list ul li.biz>ul li {
+	background: #a4bec4
+}
+
+
+
+.side-cat-list ul li a {
+	background: url(images/bullet.png) 1px 5px no-repeat;
+	padding-left: 10px
+}
+
+.side-cat-list ul li:hover {
+	background: #c5dfe5;
+	border: 1px solid #fff
+}
+
+.side-cat-list span {
+	font: 400 11px Arial, Helvetica, sans-serif;
+	color: #999
+}
+
+.side-cat-list ul li>ul li {
+	font: 400 14px Arial, Helvetica, sans-serif
+}
+
+.side-cat-list ul li>ul {
+	width: 100%;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: -2px;
+	left: 98%;
+	background: #FFF;
+	border: 0 solid #EBEBEB
+}
+
+.side-cat-list ul li>ul li {
+	width: 98%;
+	float: left;
+	position: relative;
+	list-style: none;
+	background: inherit;
+	margin-top: 0;
+	padding: 7px 1%;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-bottom: 1px dotted #CCC;
+}
+
+.side-cat-list ul li>ul li:first-child {
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-radius: 0 5px 0 0
+}
+
+.side-cat-list ul li>ul li:last-child {
+	border-bottom: 2px solid #fff;
+	border-radius: 0 0 5px 5px
+}
+
+.side-cat-list ul li:hover>ul {
+	display: block
+}
+
+.side-cat-list ul li>ul li:hover {
+	border-bottom: none;
+	border-top: none
+}
+
+.side-cat-list ul li>ul li:first-child:hover {
+	border-top: 2px solid #000
+}
+
+.side-cat-list ul li>ul li:last-child:hover {
+	border-bottom: 2px solid #000
+}
+
+.side-cat-list .biz span{
+	float: right;
+    margin-right: 10px;
+}
+
+.side-cat-list .biz i{
+	font-size: 18px;
+    color: #000;
+}
+    
